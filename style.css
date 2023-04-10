@@ -139,3 +139,26 @@ button {
   color: white;
   font-size: 1em;
 }
+
+
+@media(min-width:700px){
+  /* desktop style */
+  .main{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .header{
+    height: 60vh;
+    width: 50vw;
+    border-radius: 30px;
+  }
+  .result{
+    height: 60vh;
+    width: 50vw;
+    border-radius: 30px;
+  }
+  
+}
+ 
